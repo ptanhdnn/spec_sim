@@ -57,7 +57,8 @@ class Run : public G4Run
     G4double fEnergyDeposit;
 
     std::map<G4String,G4int>        fProcCounter;
-    std::map<G4String,ParticleData> fParticleDataMap1;
-}
+    std::map<G4String,ParticleData> fParticleDataMap;
+};
+
 
 #endif

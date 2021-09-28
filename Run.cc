@@ -1,5 +1,5 @@
 #include "Run.hh"
-#include "DetectorConstruction"
+#include "DetectorConstruction.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "HistoManager.hh"
 
@@ -17,7 +17,7 @@ namespace {
 }
 
 std::map<G4String,G4int> Run::fgIonMap;
-G4int Run::fgIonId = kMaxHisto;
+G4int Run::fgIonId = kHisto;
 
 Run::Run(DetectorConstruction* det)
 : G4Run(),
@@ -146,7 +146,7 @@ void Run::EndOfRun()
 {
   G4int prec = 5, wid = prec + 2;  
   G4int dfprec = G4cout.precision(prec);
-  
+/*  
   //run condition
   //
   G4Material* material = fDetector->GetAbsorMaterial();
@@ -161,18 +161,14 @@ void Run::EndOfRun()
 
   if (numberOfEvent == 0) { G4cout.precision(dfprec);   return;}
              
-  //frequency of processes
+*/ //frequency of processes
   //
   G4cout << "\n Process calls frequency :" << G4endl;
   G4int index = 0;
   for ( const auto& procCounter : fProcCounter ) {
      G4String procName = procCounter.first;
      G4int    count    = procCounter.second;
-     G4String space = " "; if (++index%3 == 0) space = "\n";
-     G4cout << " " << std::setw(20) << procName << "="<< std::setw(7) << count
-            << space;
   }
-  G4cout << G4endl;
   
   //particles count
   //
@@ -186,7 +182,8 @@ void Run::EndOfRun()
     G4double eMin = data.fEmin;
     G4double eMax = data.fEmax;
     G4double meanLife = data.fTmean;
-         
+    
+
     G4cout << "  " << std::setw(13) << name << ": " << std::setw(7) << count
            << "  Emean = " << std::setw(wid) << G4BestUnit(eMean, "Energy")
            << "\t( "  << G4BestUnit(eMin, "Energy")

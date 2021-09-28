@@ -10,7 +10,6 @@ public:
   SteppingVerbose();
  ~SteppingVerbose();
  
-  virtual void TrackingStarted();
   virtual void StepInfo();
 };
 

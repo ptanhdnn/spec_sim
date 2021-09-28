@@ -18,7 +18,8 @@ DetectorConstruction::~DetectorConstruction()
 
 
 void DetectorConstruction::ConstructScintillator()
-{		
+{	
+	/*	
 	G4NistManager* nist = G4NistManager::Instance();
 	G4Element* Na = nist->FindOrBuildElement("Na");
 	G4Element* I = nist->FindOrBuildElement("I");
@@ -34,6 +35,7 @@ void DetectorConstruction::ConstructScintillator()
 								G4ThreeVector(0., 0., 0.),
 								logicScintillator, "physScintillator",
 								logicWorld, false, 0, true);
+	*/
 }
 
 

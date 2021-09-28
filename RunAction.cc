@@ -9,8 +9,8 @@
 #include "G4SystemOfUnits.hh"
 #include <iomanip>
 
-RunAction::RunAction(PrimaryGeneratorAction* kin)
-:G4UserRunAction(),
+RunAction::RunAction(DetectorConstruction* det, PrimaryGeneratorAction* kin)
+:G4UserRunAction(), fDetector(det),
  fPrimary(kin), fRun(0), fHistoManager(0)
 {
   fHistoManager = new HistoManager();
@@ -23,7 +23,7 @@ RunAction::~RunAction()
 
 G4Run* RunAction::GenerateRun()
 { 
-  fRun = new Run();
+  fRun = new Run(fDetector);
   return fRun;
 }
 

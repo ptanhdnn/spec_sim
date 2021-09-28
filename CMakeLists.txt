@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 
-project(Decay)
+project(Spec_simulation)
 
 #-------------------------------------------------------------
 #Find Geant4 package, activating all available UI and Vis drivers by default
@@ -44,4 +44,4 @@ file(COPY ${DATA_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 add_executable(decay decay.cc ${sources} ${headers})
 target_link_libraries(decay ${Geant4_LIBRARIES})
 
-#add_custom_target(decay DEPENDS decay)
+#add_custom_target(spec_sim DEPENDS decay)

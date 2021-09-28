@@ -6,9 +6,7 @@
 #include "G4IonElasticPhysics.hh"
 #include "G4IonPhysicsXS.hh"
 #include "G4StoppingPhysics.hh"
-#include "GammaNuclearPhysics.hh"
 
-#include "ElectromagneticPhysics.hh"
 #include "G4EmStandardPhysics.hh"
 #include "G4DecayPhysics.hh"
 #include "G4RadioactiveDecayPhysics.hh"
@@ -43,12 +41,10 @@ PhysicsList::PhysicsList()
   // stopping Particles
   RegisterPhysics( new G4StoppingPhysics(verb));
       
-  // Gamma-Nuclear Physics
-  RegisterPhysics( new GammaNuclearPhysics("gamma"));
 
   // EM physics
-  RegisterPhysics(new ElectromagneticPhysics());
-  ////RegisterPhysics(new G4EmStandardPhysics(verb));
+
+  RegisterPhysics(new G4EmStandardPhysics(verb));
   
   // Decay
   RegisterPhysics(new G4DecayPhysics());

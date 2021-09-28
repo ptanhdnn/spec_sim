@@ -23,7 +23,7 @@ void HistoManager::Book()
   analysisManager->SetActivation(true);     //enable inactivation of histograms
   
   // Define histograms start values
-  const G4int kMaxHisto = 10;
+  const G4int kHisto = 10;
   const G4String id[] = {"0","1","2","3","4","5","6","7","8","9"};
   const G4String title[] = 
         {"dummy",                                                        //0
@@ -58,7 +58,7 @@ void HistoManager::Book()
 
   // Create all histograms as inactivated 
   // as we have not yet set nbins, vmin, vmax
-  for (G4int k=0; k<kMaxHisto; k++) {
+  for (G4int k=0; k<kHisto; k++) {
     G4int ih = analysisManager->CreateH1(id[k], title[k], nbins, vmin, vmax);
     analysisManager->SetH1Activation(ih, false);
   }

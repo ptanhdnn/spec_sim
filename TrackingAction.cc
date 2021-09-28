@@ -45,7 +45,7 @@ void TrackingAction::PostUserTrackingAction(const G4Track* track)
   const G4ParticleDefinition* particle = track->GetParticleDefinition();
   G4String name     = particle->GetParticleName();
   G4double meanLife = particle->GetPDGLifeTime();
-  G4double ekin     = track->GetKineticEnergy();
+  G4double Ekin     = track->GetKineticEnergy();
   fTimeEnd         = track->GetGlobalTime();
 
   if ((particle->GetPDGStable())&&(Ekin == 0.)) fTimeEnd = DBL_MAX;
@@ -61,12 +61,12 @@ void TrackingAction::PostUserTrackingAction(const G4Track* track)
 
 // histograms
 
-  G4int ih;
+  G4int ih = 0;
 
   G4String type = particle->GetParticleType();
-  G4double charge = particle->GetPDGLCharge();
+  G4double charge = particle->GetPDGCharge();
 
-  if (charge > 3.) {ih = 9}
+  if (charge > 3.) {ih = 9;}
   else if (particle == G4Gamma::Gamma())        ih = 4;
   else if (particle == G4Electron::Electron()||
            particle == G4Positron::Positron())  ih = 5;
@@ -74,5 +74,5 @@ void TrackingAction::PostUserTrackingAction(const G4Track* track)
   else if (particle == G4Proton::Proton())      ih = 7;
   else if (particle == G4Alpha::Alpha())        ih = 8;
 
-  if (ih) analysis->FillH1(ih, Ekin);
+  if (ih > 0) analysis->FillH1(ih, Ekin);
 }

@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aphan/g4work/decay/ActionInitialization.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/ActionInitialization.cc.o"
-  "/home/aphan/g4work/decay/DetectorConstruction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/DetectorConstruction.cc.o"
-  "/home/aphan/g4work/decay/EventAction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/EventAction.cc.o"
-  "/home/aphan/g4work/decay/HistoManager.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/HistoManager.cc.o"
-  "/home/aphan/g4work/decay/PhysicsList.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/PhysicsList.cc.o"
-  "/home/aphan/g4work/decay/PrimaryGeneratorAction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o"
-  "/home/aphan/g4work/decay/Run.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/Run.cc.o"
-  "/home/aphan/g4work/decay/RunAction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/RunAction.cc.o"
-  "/home/aphan/g4work/decay/SteppingAction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/SteppingAction.cc.o"
-  "/home/aphan/g4work/decay/SteppingVerbose.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/SteppingVerbose.cc.o"
-  "/home/aphan/g4work/decay/TrackingAction.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/TrackingAction.cc.o"
-  "/home/aphan/g4work/decay/decay.cc" "/home/aphan/g4work/decay/build/CMakeFiles/decay.dir/decay.cc.o"
+  "/home/aphan/g4work/spec_sim/ActionInitialization.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/ActionInitialization.cc.o"
+  "/home/aphan/g4work/spec_sim/DetectorConstruction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/DetectorConstruction.cc.o"
+  "/home/aphan/g4work/spec_sim/EventAction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/EventAction.cc.o"
+  "/home/aphan/g4work/spec_sim/HistoManager.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/HistoManager.cc.o"
+  "/home/aphan/g4work/spec_sim/PhysicsList.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/PhysicsList.cc.o"
+  "/home/aphan/g4work/spec_sim/PrimaryGeneratorAction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o"
+  "/home/aphan/g4work/spec_sim/Run.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/Run.cc.o"
+  "/home/aphan/g4work/spec_sim/RunAction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/RunAction.cc.o"
+  "/home/aphan/g4work/spec_sim/SteppingAction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/SteppingAction.cc.o"
+  "/home/aphan/g4work/spec_sim/SteppingVerbose.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/SteppingVerbose.cc.o"
+  "/home/aphan/g4work/spec_sim/TrackingAction.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/TrackingAction.cc.o"
+  "/home/aphan/g4work/spec_sim/decay.cc" "/home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/decay.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

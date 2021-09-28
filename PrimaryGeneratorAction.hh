@@ -16,8 +16,6 @@ class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
    ~PrimaryGeneratorAction();
 
   public:
-    void SetDefaultKinematic();  
-
     virtual void GeneratePrimaries(G4Event*);
          
     G4ParticleGun* GetParticleGun() {return fParticleGun;}

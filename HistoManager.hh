@@ -8,7 +8,7 @@
 #include "g4csv.hh"
 //#include "g4root.hh"
 
-const G4int kMaxHisto = 10;
+const G4int kHisto = 10;
 
 class HistoManager
 {

@@ -846,6 +846,7 @@ CMakeFiles/decay.dir/HistoManager.cc.o: /home/aphan/software/geant4/geant4.10.07
 CMakeFiles/decay.dir/HistoManager.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/tools/wroot/wbuf
 
 CMakeFiles/decay.dir/PhysicsList.cc.o: ../PhysicsList.cc
+CMakeFiles/decay.dir/PhysicsList.cc.o: ../PhysicsList.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/DualRand.h
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/JamesRandom.h
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -947,7 +948,9 @@ CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4LogicalVolume.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4LorentzVector.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4MCCIndexConversionTable.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4Material.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4MaterialCutsCouple.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4MaterialPropertiesIndex.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4MaterialPropertiesTable.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4MaterialPropertiesTable.icc
@@ -974,6 +977,8 @@ CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4PhysicsVector.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4PhysicsVectorType.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4ProcessType.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4ProductionCuts.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4ProductionCutsTable.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4Profiler.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4Profiler.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4RadioactiveDecayPhysics.hh
@@ -1005,6 +1010,7 @@ CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4UnitsTable.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4UnitsTable.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VExceptionHandler.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VModularPhysicsList.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VParticleChange.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VParticleChange.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VPhysicalVolume.hh
@@ -1015,6 +1021,7 @@ CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VTouchable.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VTouchable.icc
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUPLSplitter.hh
+CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUserPhysicsList.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUserTrackInformation.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4ios.hh
 CMakeFiles/decay.dir/PhysicsList.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/PTL/Globals.hh
@@ -1132,6 +1139,7 @@ CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o: /home/aphan/software/geant4/ge
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/templates.hh
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/tls.hh
 
+CMakeFiles/decay.dir/Run.cc.o: ../DetectorConstruction.hh
 CMakeFiles/decay.dir/Run.cc.o: ../HistoManager.hh
 CMakeFiles/decay.dir/Run.cc.o: ../PrimaryGeneratorAction.hh
 CMakeFiles/decay.dir/Run.cc.o: ../Run.cc
@@ -1346,6 +1354,7 @@ CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-inst
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VTHnFileManager.hh
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VTouchable.hh
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VTouchable.icc
+CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUserDetectorConstruction.hh
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4VUserTrackInformation.hh
 CMakeFiles/decay.dir/Run.cc.o: /home/aphan/software/geant4/geant4.10.07.p02-install/include/Geant4/G4ios.hh

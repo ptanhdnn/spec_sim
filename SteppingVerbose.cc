@@ -48,5 +48,5 @@ void SteppingVerbose::StepInfo()
       }
   }
 
-  G4cout.precision(prec);
+  G4cout.precision(4);
 }

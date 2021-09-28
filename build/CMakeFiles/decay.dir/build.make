@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aphan/g4work/decay
+CMAKE_SOURCE_DIR = /home/aphan/g4work/spec_sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aphan/g4work/decay/build
+CMAKE_BINARY_DIR = /home/aphan/g4work/spec_sim/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/decay.dir/depend.make
@@ -59,159 +59,159 @@ include CMakeFiles/decay.dir/flags.make
 
 CMakeFiles/decay.dir/decay.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/decay.cc.o: ../decay.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/decay.dir/decay.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/decay.cc.o -c /home/aphan/g4work/decay/decay.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/decay.dir/decay.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/decay.cc.o -c /home/aphan/g4work/spec_sim/decay.cc
 
 CMakeFiles/decay.dir/decay.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/decay.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/decay.cc > CMakeFiles/decay.dir/decay.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/decay.cc > CMakeFiles/decay.dir/decay.cc.i
 
 CMakeFiles/decay.dir/decay.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/decay.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/decay.cc -o CMakeFiles/decay.dir/decay.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/decay.cc -o CMakeFiles/decay.dir/decay.cc.s
 
 CMakeFiles/decay.dir/ActionInitialization.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/ActionInitialization.cc.o: ../ActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/decay.dir/ActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/ActionInitialization.cc.o -c /home/aphan/g4work/decay/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/decay.dir/ActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/ActionInitialization.cc.o -c /home/aphan/g4work/spec_sim/ActionInitialization.cc
 
 CMakeFiles/decay.dir/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/ActionInitialization.cc > CMakeFiles/decay.dir/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/ActionInitialization.cc > CMakeFiles/decay.dir/ActionInitialization.cc.i
 
 CMakeFiles/decay.dir/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/ActionInitialization.cc -o CMakeFiles/decay.dir/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/ActionInitialization.cc -o CMakeFiles/decay.dir/ActionInitialization.cc.s
 
 CMakeFiles/decay.dir/DetectorConstruction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/DetectorConstruction.cc.o: ../DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/decay.dir/DetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/DetectorConstruction.cc.o -c /home/aphan/g4work/decay/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/decay.dir/DetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/DetectorConstruction.cc.o -c /home/aphan/g4work/spec_sim/DetectorConstruction.cc
 
 CMakeFiles/decay.dir/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/DetectorConstruction.cc > CMakeFiles/decay.dir/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/DetectorConstruction.cc > CMakeFiles/decay.dir/DetectorConstruction.cc.i
 
 CMakeFiles/decay.dir/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/DetectorConstruction.cc -o CMakeFiles/decay.dir/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/DetectorConstruction.cc -o CMakeFiles/decay.dir/DetectorConstruction.cc.s
 
 CMakeFiles/decay.dir/EventAction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/EventAction.cc.o: ../EventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/decay.dir/EventAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/EventAction.cc.o -c /home/aphan/g4work/decay/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/decay.dir/EventAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/EventAction.cc.o -c /home/aphan/g4work/spec_sim/EventAction.cc
 
 CMakeFiles/decay.dir/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/EventAction.cc > CMakeFiles/decay.dir/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/EventAction.cc > CMakeFiles/decay.dir/EventAction.cc.i
 
 CMakeFiles/decay.dir/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/EventAction.cc -o CMakeFiles/decay.dir/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/EventAction.cc -o CMakeFiles/decay.dir/EventAction.cc.s
 
 CMakeFiles/decay.dir/HistoManager.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/HistoManager.cc.o: ../HistoManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/decay.dir/HistoManager.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/HistoManager.cc.o -c /home/aphan/g4work/decay/HistoManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/decay.dir/HistoManager.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/HistoManager.cc.o -c /home/aphan/g4work/spec_sim/HistoManager.cc
 
 CMakeFiles/decay.dir/HistoManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/HistoManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/HistoManager.cc > CMakeFiles/decay.dir/HistoManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/HistoManager.cc > CMakeFiles/decay.dir/HistoManager.cc.i
 
 CMakeFiles/decay.dir/HistoManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/HistoManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/HistoManager.cc -o CMakeFiles/decay.dir/HistoManager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/HistoManager.cc -o CMakeFiles/decay.dir/HistoManager.cc.s
 
 CMakeFiles/decay.dir/PhysicsList.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/PhysicsList.cc.o: ../PhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/decay.dir/PhysicsList.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/PhysicsList.cc.o -c /home/aphan/g4work/decay/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/decay.dir/PhysicsList.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/PhysicsList.cc.o -c /home/aphan/g4work/spec_sim/PhysicsList.cc
 
 CMakeFiles/decay.dir/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/PhysicsList.cc > CMakeFiles/decay.dir/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/PhysicsList.cc > CMakeFiles/decay.dir/PhysicsList.cc.i
 
 CMakeFiles/decay.dir/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/PhysicsList.cc -o CMakeFiles/decay.dir/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/PhysicsList.cc -o CMakeFiles/decay.dir/PhysicsList.cc.s
 
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o: ../PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o -c /home/aphan/g4work/decay/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.o -c /home/aphan/g4work/spec_sim/PrimaryGeneratorAction.cc
 
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/PrimaryGeneratorAction.cc > CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/PrimaryGeneratorAction.cc > CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/PrimaryGeneratorAction.cc -o CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/PrimaryGeneratorAction.cc -o CMakeFiles/decay.dir/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/decay.dir/Run.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/Run.cc.o: ../Run.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/decay.dir/Run.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/Run.cc.o -c /home/aphan/g4work/decay/Run.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/decay.dir/Run.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/Run.cc.o -c /home/aphan/g4work/spec_sim/Run.cc
 
 CMakeFiles/decay.dir/Run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/Run.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/Run.cc > CMakeFiles/decay.dir/Run.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/Run.cc > CMakeFiles/decay.dir/Run.cc.i
 
 CMakeFiles/decay.dir/Run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/Run.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/Run.cc -o CMakeFiles/decay.dir/Run.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/Run.cc -o CMakeFiles/decay.dir/Run.cc.s
 
 CMakeFiles/decay.dir/RunAction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/RunAction.cc.o: ../RunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/decay.dir/RunAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/RunAction.cc.o -c /home/aphan/g4work/decay/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/decay.dir/RunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/RunAction.cc.o -c /home/aphan/g4work/spec_sim/RunAction.cc
 
 CMakeFiles/decay.dir/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/RunAction.cc > CMakeFiles/decay.dir/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/RunAction.cc > CMakeFiles/decay.dir/RunAction.cc.i
 
 CMakeFiles/decay.dir/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/RunAction.cc -o CMakeFiles/decay.dir/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/RunAction.cc -o CMakeFiles/decay.dir/RunAction.cc.s
 
 CMakeFiles/decay.dir/SteppingAction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/SteppingAction.cc.o: ../SteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/decay.dir/SteppingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/SteppingAction.cc.o -c /home/aphan/g4work/decay/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/decay.dir/SteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/SteppingAction.cc.o -c /home/aphan/g4work/spec_sim/SteppingAction.cc
 
 CMakeFiles/decay.dir/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/SteppingAction.cc > CMakeFiles/decay.dir/SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/SteppingAction.cc > CMakeFiles/decay.dir/SteppingAction.cc.i
 
 CMakeFiles/decay.dir/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/SteppingAction.cc -o CMakeFiles/decay.dir/SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/SteppingAction.cc -o CMakeFiles/decay.dir/SteppingAction.cc.s
 
 CMakeFiles/decay.dir/SteppingVerbose.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/SteppingVerbose.cc.o: ../SteppingVerbose.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/decay.dir/SteppingVerbose.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/SteppingVerbose.cc.o -c /home/aphan/g4work/decay/SteppingVerbose.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/decay.dir/SteppingVerbose.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/SteppingVerbose.cc.o -c /home/aphan/g4work/spec_sim/SteppingVerbose.cc
 
 CMakeFiles/decay.dir/SteppingVerbose.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/SteppingVerbose.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/SteppingVerbose.cc > CMakeFiles/decay.dir/SteppingVerbose.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/SteppingVerbose.cc > CMakeFiles/decay.dir/SteppingVerbose.cc.i
 
 CMakeFiles/decay.dir/SteppingVerbose.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/SteppingVerbose.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/SteppingVerbose.cc -o CMakeFiles/decay.dir/SteppingVerbose.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/SteppingVerbose.cc -o CMakeFiles/decay.dir/SteppingVerbose.cc.s
 
 CMakeFiles/decay.dir/TrackingAction.cc.o: CMakeFiles/decay.dir/flags.make
 CMakeFiles/decay.dir/TrackingAction.cc.o: ../TrackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/decay.dir/TrackingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/TrackingAction.cc.o -c /home/aphan/g4work/decay/TrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/decay.dir/TrackingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/decay.dir/TrackingAction.cc.o -c /home/aphan/g4work/spec_sim/TrackingAction.cc
 
 CMakeFiles/decay.dir/TrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/decay.dir/TrackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/decay/TrackingAction.cc > CMakeFiles/decay.dir/TrackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aphan/g4work/spec_sim/TrackingAction.cc > CMakeFiles/decay.dir/TrackingAction.cc.i
 
 CMakeFiles/decay.dir/TrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/decay.dir/TrackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/decay/TrackingAction.cc -o CMakeFiles/decay.dir/TrackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aphan/g4work/spec_sim/TrackingAction.cc -o CMakeFiles/decay.dir/TrackingAction.cc.s
 
 # Object files for target decay
 decay_OBJECTS = \
@@ -291,7 +291,7 @@ decay: /home/aphan/software/geant4/geant4.10.07.p02-install/lib/libG4global.so
 decay: /home/aphan/software/geant4/geant4.10.07.p02-install/lib/libG4clhep.so
 decay: /home/aphan/software/geant4/geant4.10.07.p02-install/lib/libG4ptl.so.0.0.2
 decay: CMakeFiles/decay.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aphan/g4work/decay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable decay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aphan/g4work/spec_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable decay"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/decay.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -304,6 +304,6 @@ CMakeFiles/decay.dir/clean:
 .PHONY : CMakeFiles/decay.dir/clean
 
 CMakeFiles/decay.dir/depend:
-	cd /home/aphan/g4work/decay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aphan/g4work/decay /home/aphan/g4work/decay /home/aphan/g4work/decay/build /home/aphan/g4work/decay/build /home/aphan/g4work/decay/build/CMakeFiles/decay.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aphan/g4work/spec_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aphan/g4work/spec_sim /home/aphan/g4work/spec_sim /home/aphan/g4work/spec_sim/build /home/aphan/g4work/spec_sim/build /home/aphan/g4work/spec_sim/build/CMakeFiles/decay.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/decay.dir/depend
 

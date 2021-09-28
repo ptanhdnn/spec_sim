@@ -8,8 +8,8 @@
 #include "G4SystemOfUnits.hh"
 #include "Randomize.hh"
 
-PrimaryGeneratorAction::PrimaryGeneratorAction()
- : G4VUserPrimaryGeneratorAction(),
+PrimaryGeneratorAction::PrimaryGeneratorAction(DetectorConstruction* det)
+ : G4VUserPrimaryGeneratorAction(), fDetector(det),
    fParticleGun(0)
 {
   G4int n_particle = 1;

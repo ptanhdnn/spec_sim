@@ -19,7 +19,7 @@ void ActionInitialization::Build() const
   PrimaryGeneratorAction* primary = new PrimaryGeneratorAction(fDetector);
   SetUserAction(primary);
     
-  RunAction* runAction = new RunAction(primary);
+  RunAction* runAction = new RunAction(fDetector,primary);
   SetUserAction(runAction);
   
   EventAction* event = new EventAction();
