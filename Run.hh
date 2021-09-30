@@ -10,6 +10,8 @@
 class DetectorConstruction;
 class G4ParticleDefinition;
 
+
+
 class Run : public G4Run
 {
   public:
@@ -18,11 +20,12 @@ class Run : public G4Run
 
   public:
     void SetPrimary(G4ParticleDefinition* particle, G4double energy);         
+    void ParticleCount(G4String, G4double, G4double);
     void CountProcesses(const G4VProcess* process);
-    void ParticleCount(G4String, G4double, G4double); 
     void AddEdep (G4double edep);                  
 
     G4int GetIonId (G4String);
+    
 
     virtual void Merge(const G4Run*);
     void EndOfRun();     

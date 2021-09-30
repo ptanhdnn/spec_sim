@@ -4,21 +4,27 @@
 #include "G4UserTrackingAction.hh"
 #include "globals.hh"
 
+#include <map>
+
 class EventAction;
 
 class TrackingAction : public G4UserTrackingAction {
 
-  public:  
-    TrackingAction(EventAction*);
-   ~TrackingAction();
+	public:  
+		TrackingAction(EventAction*);
+	 ~TrackingAction();
 
-    virtual void  PreUserTrackingAction(const G4Track*);   
-    virtual void  PostUserTrackingAction(const G4Track*);
+	public:
+ 		void CountParticle(G4String, G4double);
 
-  private:
-    EventAction*        fEventAction;
+		virtual void  PreUserTrackingAction(const G4Track*);   
+		virtual void  PostUserTrackingAction(const G4Track*);
 
-    G4double fTimeBirth,  fTimeEnd;
+	private:
+
+		EventAction*        fEventAction;
+
+		G4double fTimeBirth,  fTimeEnd;
 };
 
 #endif

@@ -29,7 +29,10 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   if (edepStep <= 0.) return; 
   fEventAction->AddEdep(edepStep);
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-//  analysisManager->FillH1(2, Run::CountProcesses(process)->first, edepStep); 
+//  for (const auto& datacount : run->CountProcesses2(process).begin())
+  {
+//    analysisManager->FillH1(2, datacount.second, edepStep);
+  } 
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

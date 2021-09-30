@@ -15,7 +15,8 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     G4VPhysicalVolume* Construct();
     void ConstructScintillator();
                         
-    G4double GetWorldSize() {return fWorldSize;}; 
+    G4double GetWorldSize() {return fWorldSize;};
+    G4LogicalVolume *logicWorld;
 
   private:
   

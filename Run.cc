@@ -61,7 +61,7 @@ void Run::SetPrimary(G4ParticleDefinition* particle, G4double energy)
   fParticle = particle;
   fEkin = energy;
 }
- 
+
 void Run::CountProcesses(const G4VProcess* process) 
 {
   G4String procName = process->GetProcessName();

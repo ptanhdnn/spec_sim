@@ -20,6 +20,7 @@ EventAction::~EventAction()
 void EventAction::BeginOfEventAction(const G4Event*)
 {
   fTotalEnergyDeposit = 0.;
+  G4int fcount = 0;
 }
 
 void EventAction::AddEdep(G4double Edep)
@@ -27,12 +28,21 @@ void EventAction::AddEdep(G4double Edep)
   fTotalEnergyDeposit += Edep;
 }
 
+void EventAction::AddCount()
+{
+  fcount += 1;
+}
+
 void EventAction::EndOfEventAction(const G4Event*)
 {
   Run* run = static_cast<Run*>(
              G4RunManager::GetRunManager()->GetNonConstCurrentRun());
-             
-  run->AddEdep (fTotalEnergyDeposit);             
+                          
 
-  G4AnalysisManager::Instance()->FillH1(1,fTotalEnergyDeposit);
+  auto *man = G4AnalysisManager::Instance();
+  man->FillNtupleDColumn(0,fTotalEnergyDeposit);
+  man->FillNtupleDColumn(1,fcount);
+  man->AddNtupleRow();
+
+  fTotalEnergyDeposit = 0.;
 }

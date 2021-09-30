@@ -54,7 +54,7 @@ void TrackingAction::PostUserTrackingAction(const G4Track* track)
   if ((G4IonTable::IsIon(particle))&&(meanLife != 0.))
   {
     G4int id = run->GetIonId(name);
-    analysis->FillH1(id, Ekin);
+    analysis->FillNtupleDColumn(id, Ekin);
   }
  G4StepStatus status = track->GetStep()->GetPostStepPoint()->GetStepStatus();
  if (status != fWorldBoundary) return; 
@@ -74,5 +74,9 @@ void TrackingAction::PostUserTrackingAction(const G4Track* track)
   else if (particle == G4Proton::Proton())      ih = 7;
   else if (particle == G4Alpha::Alpha())        ih = 8;
 
-  if (ih > 0) analysis->FillH1(ih, Ekin);
+  if (ih > 0) {
+   analysis->FillNtupleDColumn(ih, Ekin);
+  }
+
+  analysis->AddNtupleRow();
 }

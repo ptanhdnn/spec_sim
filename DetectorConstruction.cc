@@ -19,7 +19,6 @@ DetectorConstruction::~DetectorConstruction()
 
 void DetectorConstruction::ConstructScintillator()
 {	
-	/*	
 	G4NistManager* nist = G4NistManager::Instance();
 	G4Element* Na = nist->FindOrBuildElement("Na");
 	G4Element* I = nist->FindOrBuildElement("I");
@@ -29,13 +28,17 @@ void DetectorConstruction::ConstructScintillator()
 
 	G4Tubs* solidScintillator = new G4Tubs("solidScintillator", 0*cm, 1.*cm, 2.*cm, 0*deg, 360*deg);
 		
-	G4LogicalVolume* logicScintillator = new G4LogicalVolume(solidScintillator, NaI, "logicalScintillator");
+	G4LogicalVolume* logicScintillator = new G4LogicalVolume(solidScintillator,
+															NaI,
+															"logicalScintillator");
 		
 	G4VPhysicalVolume* physScintillator = new G4PVPlacement(0,
 								G4ThreeVector(0., 0., 0.),
-								logicScintillator, "physScintillator",
-								logicWorld, false, 0, true);
-	*/
+								logicScintillator,
+								"physScintillator",
+								logicWorld,
+								false,
+								0);
 }
 
 

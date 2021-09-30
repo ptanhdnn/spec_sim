@@ -2,7 +2,7 @@
 #include "G4UnitsTable.hh"
 
 HistoManager::HistoManager()
-  : fFileName("rdecay01")
+  : fFileName("spectrum")
 {
   Book();
 }
@@ -51,17 +51,12 @@ void HistoManager::Book()
           };
     */
 
-  // Default values (to be reset via /analysis/h1/set command)               
-  G4int nbins = 100;
-  G4double vmin = 0.;
-  G4double vmax = 100.;
-
   // Create all histograms as inactivated 
   // as we have not yet set nbins, vmin, vmax
   for (G4int k=0; k<kHisto; k++) {
-    G4int ih = analysisManager->CreateH1(id[k], title[k], nbins, vmin, vmax);
-    analysisManager->SetH1Activation(ih, false);
+    G4int ih = analysisManager->CreateNtuple(id[k], title[k]);
+    analysisManager->CreateNtupleDColumn("Edep");
+    analysisManager->CreateNtupleDColumn("fcount");
+    analysisManager->FinishNtuple();
   }
 }
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
